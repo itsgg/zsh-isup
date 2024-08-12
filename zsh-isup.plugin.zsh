@@ -1,10 +1,10 @@
 isup() {
+    local domain="$1"
+
     local url="https://www.isitdownrightnow.com/check.php?domain=$domain"
     local up_pattern="statusup"
     local down_pattern="statusdown"
 
-    local domain="$1"
-    
     if [[ -z "$domain" ]]; then
         echo "Error: Please provide a domain name as an argument."
         return 1
