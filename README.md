@@ -9,6 +9,7 @@ A Zsh plugin to check if a domain is online.
 1. Clone the repository inside your `~/.oh-my-zsh/custom/plugins` directory:
 
     ```sh
+    rm -rf ~/.oh-my-zsh/custom/plugins/zsh-isup
     git clone https://github.com/itsgg/zsh-isup.git ~/.oh-my-zsh/custom/plugins/zsh-isup
     ```
 
